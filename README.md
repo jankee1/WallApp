@@ -6,6 +6,7 @@
   * /wall/color/{colorName} - consumes findBlockByColor() method from task requirement
   * /wall//material/{materialName} - consumes findBlocksByMaterial() method from task requirement
 * Tests were added for Wall class methods
-* Application can be run in Docker. Clon the repository and run:
+* Application can be run in Docker. Clon the repository and in the application directory run:
+  * mvn clean package
   * docker build -t wallapp . 
   * docker run -p 8080:8080 wallapp   
